@@ -29,7 +29,6 @@
     }
 
 
-
     // ---- a. ----
 
     $sql = 'select age, count(age) from NextBee.member group by age order by count(age) desc';
