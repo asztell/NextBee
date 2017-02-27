@@ -1,12 +1,12 @@
 -- used to create the db and table + insert statements
 
-drop database test;
-create database test;
-use test;
+drop database if exists NextBee;
+create database NextBee;
+use NextBee;
 
 
 create table member(
-	email varchar(254) not null primary key,
+  email varchar(254) not null primary key,
 	-- dropped the long name (age_as_integer) for convenience
   age int(3),
   -- set all values to male as it is irrelevant to the assignment
@@ -34,34 +34,32 @@ insert into member(email, age, gender) values('r@b.c', '50', 'm');
 
 
 create table visits(
-  id varchar(10) not null auto_increment,
-  timestamp timestamp not null default current_timestamp,
+  id int not null auto_increment,
+  timestamp int not null,
   email varchar(254) not null,
   first_time tinyint(1) not null default 1,
   primary key (id)
 );
 
-insert into visits(email) values('a@b.c');
-insert into visits(email) values('b@b.c');
-insert into visits(email) values('c@b.c');
-insert into visits(email) values('d@b.c');
-insert into visits(email) values('e@b.c');
-insert into visits(email) values('f@b.c');
-insert into visits(email) values('g@b.c');
-insert into visits(email) values('h@b.c');
-insert into visits(email) values('i@b.c');
-insert into visits(email) values('j@b.c');
-insert into visits(email) values('k@b.c');
-insert into visits(email) values('l@b.c');
-insert into visits(email) values('m@b.c');
-insert into visits(email) values('n@b.c');
-insert into visits(email) values('o@b.c');
-insert into visits(email) values('p@b.c');
-insert into visits(email) values('q@b.c');
-insert into visits(email) values('r@b.c');
-insert into visits(email) values('s@b.c');
-insert into visits(email) values('t@b.c');
-insert into visits(email) values('u@b.c');
-insert into visits(email) values('v@b.c');
-insert into visits(email) values('w@b.c');
-insert into visits(email) values('x@b.c');
+insert into visits(email, timestamp) values('a@b.c', 1485876459);
+insert into visits(email, timestamp) values('b@b.c', 1485876559);
+insert into visits(email, timestamp) values('c@b.c', 1485876579);
+insert into visits(email, timestamp) values('d@b.c', 1485876589);
+insert into visits(email, timestamp) values('e@b.c', 1485876659);
+insert into visits(email, timestamp) values('f@b.c', 1485876669);
+insert into visits(email, timestamp) values('g@b.c', 1485876699);
+insert into visits(email, timestamp) values('h@b.c', 1485876759);
+insert into visits(email, timestamp) values('i@b.c', 1485876779);
+insert into visits(email, timestamp) values('j@b.c', 1485876819);
+insert into visits(email, timestamp) values('k@b.c', 1485876825);
+insert into visits(email, timestamp) values('l@b.c', 1485876859);
+insert into visits(email, timestamp) values('m@b.c', 1485876869);
+insert into visits(email, timestamp) values('n@b.c', 1485877159);
+insert into visits(email, timestamp) values('o@b.c', 1485877259);
+insert into visits(email, timestamp) values('p@b.c', 1485877289);
+insert into visits(email, timestamp) values('q@b.c', 1485877299);
+insert into visits(email, timestamp) values('r@b.c', 1485877359);
+insert into visits(email, timestamp) values('s@b.c', 1485877389);
+insert into visits(email, timestamp) values('t@b.c', 1485877459);
+insert into visits(email, timestamp) values('u@b.c', 1485877509);
+insert into visits(email, timestamp) values('v@b.c', 1485877529);

@@ -18,7 +18,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "1MysqlPass!";
-    $database = "test";
+    $database = "NextBee";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
@@ -32,7 +32,7 @@
 
     // ---- a. ----
 
-    $sql = 'select age, count(age) from test.member group by age order by count(age) desc';
+    $sql = 'select age, count(age) from NextBee.member group by age order by count(age) desc';
     $result = mysqli_query($conn, $sql);
 
     $result_array = array(
@@ -78,7 +78,7 @@
 
     // ---- b. ----
 
-    $sql = 'select age, count(age) from test.member group by age';
+    $sql = 'select age, count(age) from NextBee.member group by age';
     $result = mysqli_query($conn, $sql);
 
     $result_array = array(

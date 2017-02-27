@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a7a6ba-cc84-44fd-a021-5763fb46dc75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_script.sql" afterPath="$PROJECT_DIR$/db_script.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,44 +33,52 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-              <folding>
-                <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-                <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-                <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-                <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-                <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_script.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db_script.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.51313484">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+                    <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+                    <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+                    <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+                    <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/array.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="db_script.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db_script.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +99,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/array.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/db_script.sql" />
       </list>
@@ -142,6 +154,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="NextBee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NextBee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NextBee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -498,6 +520,11 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -884,16 +911,16 @@
       <workItem from="1485187349344" duration="6657000" />
       <workItem from="1485194088638" duration="3116000" />
       <workItem from="1485873224314" duration="4604000" />
-      <workItem from="1485879462724" duration="708000" />
+      <workItem from="1485879462724" duration="6303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45225000" />
+    <option name="totallyTimeSpent" value="50820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="59" width="1900" height="1021" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -905,7 +932,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19543974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07605178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -948,11 +975,11 @@
         <state relative-caret-position="3570">
           <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
           <folding>
-            <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
+            <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -978,41 +1005,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_script.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
+            <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1038,11 +1035,41 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
+            <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_script.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1063,6 +1090,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1485881734701" expanded="true" signature="659:739" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="2043:2098" ph="select age, member" />
+            <marker date="1485881734701" expanded="true" signature="7567:7573" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="7573:7579" ph="&amp;nbsp;" />
+            <marker date="1485881734701" expanded="true" signature="8465:8648" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1071,24 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-          <folding>
-            <marker date="1485878087898" expanded="true" signature="656:733" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="2037:2089" ph="select age, member" />
-            <marker date="1485878087898" expanded="true" signature="7558:7564" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="7564:7570" ph="&amp;nbsp;" />
-            <marker date="1485878087898" expanded="true" signature="8456:8639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_script.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding />
         </state>
       </provider>
